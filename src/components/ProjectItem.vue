@@ -1,6 +1,6 @@
 <script setup>
 
-import { ref, computed } from 'vue' 
+import { ref, computed, defineProps } from 'vue'
   
 const props = defineProps({
   title: { type: String, required: true },
@@ -35,7 +35,7 @@ const modifiedImageThree = computed(() => {
       <h3 class="mb-2 text-lg font-bold group-hover-text-cyan-500 delay-100">{{ title }}</h3>
       <div class="flex my-3.5">
         <div class="bg-norepeat bg-cover bg-center h-16 w-24 mr-3 cursor-pointer transform hover:scale-105" :style="modifiedImageOne"></div>
-        <div class="bg-norepeat bg-cover bg-center h-16 w-24 mr-3 cursor-pointer transform hover:scale-105 hover:cursor-pointer" :style="modifiedImageThree"></div>
+        <div class="bg-norepeat bg-cover bg-center h-16 w-24 mr-3 cursor-pointer transform hover:scale-105 hover:cursor-pointer" :style="modifiedImageTwo"></div>
         <div class="bg-norepeat bg-cover bg-center h-16 w-24 cursor-pointer transform hover:scale-105 hover:cursor-pointer" :style="modifiedImageThree"></div>
       </div>
       <base-link external><a :href="link" target="_blank">link</a></base-link>

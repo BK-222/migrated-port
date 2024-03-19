@@ -4,7 +4,6 @@ import useProjectsStore from '../stores/projectsStore.js'
 import ProjectItem from '../components/ProjectItem.vue'
 
 
-
 import { computed } from 'vue'
 
 const projectsStore = useProjectsStore();

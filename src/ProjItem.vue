@@ -1,7 +1,7 @@
 <script setup>
 
 import { ref, computed, defineProps } from 'vue'
-  
+
 const props = defineProps({
   title: { type: String, required: true },
   img_1: { type: String, required: true },
@@ -26,7 +26,7 @@ const imageThree = ref(props.img_3);
 const modifiedImageThree = computed(() => {
   return { 'backgroundImage': url(`${imageThree.value}`) };
 }); 
-  
+
 </script>
 
 <template>

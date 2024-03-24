@@ -1,8 +1,9 @@
 import { defineStore } from 'pinia'
 
-import { reactive, computed } from 'vue' 
+import { ref, reactive, computed } from 'vue' 
 
 const useProjectsStore = defineStore('projectsStore', () => {
+  const message = ref('hello world');
   const projects = reactive([
     {
       id: 1,

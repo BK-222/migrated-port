@@ -3,7 +3,6 @@ import { defineStore } from 'pinia'
 import { ref, reactive, computed } from 'vue' 
 
 const useProjectsStore = defineStore('projectsStore', () => {
-  const message = ref('hello world');
   const projects = reactive([
     {
       id: 1,
@@ -41,7 +40,7 @@ const useProjectsStore = defineStore('projectsStore', () => {
       img_1: '_img/screens/prac_1.png',
       img_2: '_img/screens/prac_2.png',
       img_3: '_img/screens/prac_3.png',
-      link: 'https://github.com/BK-222/akiba-place',
+      link: 'https://github.com/BK-222/akiba-place', 
       gitHub: 'https://github.com/BK-222/akiba-place',
       tech: 'Mevn'
     }

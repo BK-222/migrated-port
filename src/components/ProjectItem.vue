@@ -4,7 +4,6 @@ import { ref, computed, defineProps } from 'vue'
 
 import BaseCard from '../components/ui/BaseCard.vue'
 
-
   
 const props = defineProps({
   title: { type: String, required: true },

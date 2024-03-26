@@ -9,4 +9,4 @@ import TheFooter from './layouts/TheFooter.vue'
   <TheHeader />
   <router-view></router-view>
   <TheFooter />
-</template>
+</template> 

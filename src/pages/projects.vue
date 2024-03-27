@@ -18,9 +18,9 @@ const compProjects = reactive([
     {
       id: 1,
       title: 'Simple playable battle app.',
-      img_1: 'src/assets/_img/slayer_1.png',
-      img_2: 'src/assets/_img/slayer_2.png',
-      img_3: 'src/assets/_img/slayer_3.png',
+      img_1: '/src/assets/_img/slayer_1.png',
+      img_2: '/src/assets/_img/slayer_2.png',
+      img_3: '/src/assets/_img/slayer_3.png',
       link: 'https://priceless-edison-9dd932.netlify.app/',
       gitHub: 'https://github.com/BK-222/tms',
       tech: 'Vue'
@@ -28,9 +28,9 @@ const compProjects = reactive([
     {
       id: 2,
       title: 'Discord bot',
-      img_1: 'src/assets/_img/beato_1.png',
-      img_2: 'src/assets/_img/beato_2.png',
-      img_3: 'src/assets/_img/beato_3.png',
+      img_1: '/src/assets/_img/beato_1.png',
+      img_2: '/src/assets/_img/beato_2.png',
+      img_3: '/src/assets/_img/beato_3.png',
       link: 'https://github.com/BK-222/discord-bot',
       gitHub: 'https://github.com/BK-222/discord-bot',
       tech: 'Node.js'
@@ -38,9 +38,9 @@ const compProjects = reactive([
     {
       id: 3,
       title: 'Landing page',
-      img_1: 'src/assets/_img/landing_1.png',
-      img_2: 'src/assets/_img/landing_2.png',
-      img_3: 'src/assets/_img/landing_3.png',
+      img_1: '/src/assets/_img/landing_1.png',
+      img_2: '/src/assets/_img/landing_2.png',
+      img_3: '/src/assets/_img/landing_3.png',
       link: 'https://bk-222.github.io/animeet/',
       gitHub: 'https://github.com/BK-222/animeet',
       tech: 'Plain HTML/CSS with .js scroller'
@@ -48,9 +48,9 @@ const compProjects = reactive([
     {
       id: 4,
       title: 'A Small Register/Book Practice Project',
-      img_1: 'src/assets/_img/prac_1.png',
-      img_2: 'src/assets/_img/prac_2.png',
-      img_3: 'src/assets/_img/prac_3.png',
+      img_1: '/src/assets/_img/prac_1.png',
+      img_2: '/src/assets/_img/prac_2.png',
+      img_3: '/src/assets/_img/prac_3.png',
       link: 'https://github.com/BK-222/akiba-place', 
       gitHub: 'https://github.com/BK-222/akiba-place',
       tech: 'MEVN'

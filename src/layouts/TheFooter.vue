@@ -9,7 +9,7 @@
 				</li>
 				<li class="flex p-1.5 text-xs hover-text-cyan-500">
 					<a class="flex" href="https://github.com/BK-222/">
-						<img class="h-4 w-4 mr-1 bg-cyan-500" src="src/assets/favicons/github.svg">GitHub
+						<img class="h-4 w-4 mr-1 bg-cyan-500" src="/src/assets/favicons/github.svg">GitHub
 					</a>
 				</li>
 			</ul>

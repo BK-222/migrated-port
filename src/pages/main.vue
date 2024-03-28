@@ -1,7 +1,6 @@
 <script setup> 
   import BaseCard from '../components/ui/BaseCard.vue'
   import BaseLink from '../components/ui/BaseLink.vue'
-
 </script>
 
 <template>

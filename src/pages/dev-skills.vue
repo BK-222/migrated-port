@@ -1,8 +1,6 @@
-  <script setup> 
-    import BaseCard from '../components/ui/BaseCard.vue'
-    
-
-  </script>
+<script setup> 
+  import BaseCard from '../components/ui/BaseCard.vue'
+</script>
 
 <template>
   <div class="flex flex-col items-center">

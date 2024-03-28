@@ -6,7 +6,6 @@ import BaseCard from './components/ui/BaseCard.vue'
 import BaseLink from './components/ui/BaseLink.vue'
 
 
-
 const props = defineProps({
   title: { type: String, required: true },
   img_1: { type: String, required: true },
@@ -17,18 +16,22 @@ const props = defineProps({
   tech: { type: String, required: true }
 });
 
-const imageOne = ref(props.img_1);
-const modifiedImageOne = computed(() => {
-  return { 'backgroundImage': `url(${imageOne.value})` };
-});
 
-const imageTwo = ref(props.img_2);
-const modifiedImageTwo = computed(() => {
-  return { 'backgroundImage': `url(${imageTwo.value})` };
-});
+function createModifiedImage(imageProp) {
+  const image = ref(imageProp);
+  const modifiedImage = computed(() => {
+    return { 'backgroundImage': `url(${image.value})` };
+  });
+  return modifiedImage;
+}
 
-const imageThree = ref(props.img_3);
-const modifiedImageThree = computed(() => {
+  const modifiedImageOne = createModifiedImage(props.img_1);
+  const modifiedImageTwo = createModifiedImage(props.img_2);
+  const modifiedImageThree = createModifiedImage(props.img_3);
+  
+
+const imageThreee = ref(props.img_3);
+const modifiedImageThreee = computed(() => {
   return { 'backgroundImage': `url(${imageThree.value})` };
 });
 

@@ -1,21 +1,16 @@
 <script setup>
-
+import { reactive, computed } from 'vue'
+  
 import useProjectsStore from '../stores/projectsStore.js'
 import ProjectItem from '../components/ProjectItem.vue'
 
-  import ProjItem from '../ProjItem.vue'
-
-import { reactive, computed } from 'vue'
-
-  function getImageUrl(name, extension) {
-  return new URL(`/src/assets/_img/${name}.${extension}`, import.meta.url).href
-  }
+import ProjItem from '../ProjItem.vue'
 
 const projectsStore = useProjectsStore();
   
 const projects = computed(() => {
   return projectsStore.stateProjects;
-})
+});
 
   
 const compProjects = reactive([
@@ -54,13 +49,12 @@ const compProjects = reactive([
       title: 'A Small Register/Book Practice Project',
       img_1: '/_img/prac_1.png',
       img_2: '/_img/prac_2.png',
-      img_3: '_img/prac_3.png',
+      img_3: '/_img/prac_3.png',
       link: 'https://github.com/BK-222/akiba-place', 
       gitHub: 'https://github.com/BK-222/akiba-place',
       tech: 'MEVN'
    } 
 ]);
-      
 </script>
   
 <template>

@@ -22,7 +22,7 @@ const compProjects = reactive([
     {
       id: 1,
       title: 'Simple playable battle app.',
-      img_1: '/public/_img/slayer_1.png',
+      img_1: '/_img/slayer_1.png',
       img_2: '/public/_img/slayer_2.png',
       img_3: '/public/_img/slayer_3.png',
       link: 'https://priceless-edison-9dd932.netlify.app/',

@@ -54,7 +54,7 @@ const compProjects = reactive([
       title: 'A Small Register/Book Practice Project',
       img_1: '/_img/prac_1.png',
       img_2: '/_img/prac_2.png',
-      img_3: '/_img/prac_3.png',
+      img_3: '_img/prac_3.png',
       link: 'https://github.com/BK-222/akiba-place', 
       gitHub: 'https://github.com/BK-222/akiba-place',
       tech: 'MEVN'

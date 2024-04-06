@@ -1,5 +1,4 @@
 <script setup>
-
 import { ref, computed, defineProps } from 'vue'
 
 import BaseCard from '../components/ui/BaseCard.vue'
@@ -29,7 +28,6 @@ const imageThree = ref(props.img_3);
 const modifiedImageThree = computed(() => {
   return { 'backgroundImage': url(`${imageThree.value}`) };
 }); 
-  
 </script>
 
 <template>

@@ -47,7 +47,7 @@ const modifiedImageThreee = computed(() => {
         <div class="bg-norepeat bg-cover bg-center h-16 w-24 cursor-pointer transform hover:scale-105 hover:cursor-pointer" 
 :style="modifiedImageThree"></div>
   </div>
-      <BaseLink external><a :href="link" target="_blank">link</a></BaseLink>
+      <BaseLink external class="mr-1"><a :href="link" target="_blank">link</a></BaseLink>
       <BaseLink external><a :href="gitHub" target="_blank">code</a></BaseLink>
       <p class="mt-1 font-semibold">{{ tech }}</p>
     </BaseCard>

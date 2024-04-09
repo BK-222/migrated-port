@@ -9,27 +9,27 @@
     <base-card class="flex">
       <ul>
         <div class="flex items-center py-0.5">
-          <img class="h-5 w-5 bg-cyan-500" src="/src/assets/favicons/js.svg">
+          <img class="h-5 w-5 bg-teal-500" src="/src/assets/favicons/js.svg">
           <li class="ml-1">JavaScript (ES6+)</li>
         </div>
         <div class="flex items-center py-0.5">
-          <img class="h-5 w-5 bg-cyan-500" src="/src/assets/favicons/vue.svg">
+          <img class="h-5 w-5 bg-teal-500" src="/src/assets/favicons/vue.svg">
           <li class="ml-1">Vue</li>
         </div>
         <div class="flex items-center py-0.5">
-          <img class="h-5 w-5 bg-cyan-500" src="/src/assets/favicons/tailwind.svg">
+          <img class="h-5 w-5 bg-teal-500" src="/src/assets/favicons/tailwind.svg">
           <li class="ml-1">Tailwind CSS</li>
         </div>
         <div class="flex items-center py-0.5">
-          <img class="h-5 w-5 bg-cyan-500" src="/src/assets/favicons/git.svg">
+          <img class="h-5 w-5 bg-teal-500" src="/src/assets/favicons/git.svg">
           <li class="ml-1">Git</li>
         </div>
         <div class="flex items-center py-0.5">
-          <img class="h-5 w-5 bg-cyan-500" src="/src/assets/favicons/node.svg">
+          <img class="h-5 w-5 bg-teal-500" src="/src/assets/favicons/node.svg">
           <li class="ml-1">Node.js</li>
         </div>
         <div class="flex items-center py-0.5">
-          <img class="h-5 w-5 bg-cyan-500" src="/src/assets/favicons/firebase.svg">
+          <img class="h-5 w-5 bg-teal-500" src="/src/assets/favicons/firebase.svg">
           <li class="ml-1">Firebase</li>
         </div>
       </ul>

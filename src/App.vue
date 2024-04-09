@@ -6,9 +6,30 @@ import TheFooter from './layouts/TheFooter.vue'
 <template>
   <TheHeader />
     <router-view v-slot="{ Component }">
-      <transition name="route" mode="out-in" enter-from-class="opacity-0" leave-to-class="opacity-0" enter-active-class="transition-duration-100 ease-in" leave-active-class="transition duration-100 ease-in" enter-to-class="opacity-50 ease-in transform-translate-y-0" leave-from-class="opacity-50 ease-in transform-translate-y-0">
+      <transition name="route" mode="out-in">
         <component :is="Component" />
       </transition>
     </router-view>
   <TheFooter />
 </template> 
+
+<style scoped>
+
+.route-leave-from, .route-enter-to {
+  opacity: 0.5 ease-in;
+  transform: translateY(0);
+}
+
+.route-leave-to, .route-enter-from {
+  opacity: 0;
+}
+
+.route-leave-active {
+  transition: all 0.25s ease-in;
+}
+
+.route-enter-active {
+  transition: all 0.25s ease-out;
+}
+
+</style>

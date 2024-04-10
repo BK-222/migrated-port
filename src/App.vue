@@ -10,7 +10,6 @@ import TheFooter from './layouts/TheFooter.vue'
         <component :is="Component" />
       </transition>
     </router-view>
-  <TheFooter />
 </template> 
 
 <style scoped>

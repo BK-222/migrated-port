@@ -3,6 +3,7 @@ import { reactive, computed } from 'vue'
   
 import useProjectsStore from '../stores/projectsStore.js'
 import ProjItem from '../components/ProjItem.vue'
+import TheFooter from '../layouts/TheFooter.vue'
 
 const projectsStore = useProjectsStore();
   
@@ -73,5 +74,6 @@ const compProjects = reactive([
 				/>
 			</ul>
     </div>
-	</div>
+	<TheFooter />
+  </div>
 </template>

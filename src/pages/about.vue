@@ -1,5 +1,6 @@
 <script setup> 
   import BaseCard from '../components/ui/BaseCard.vue'
+  import TheFooter from '../layouts/TheFooter.vue'
 </script>
 
 <template>
@@ -11,5 +12,6 @@
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo adipisci architecto nam debitis expedita magni possimus qui, officia vitae consequatur consequuntur iure iste ipsam. Sunt dolor excepturi neque magni, iure exercitationem delectus labore illum? Iusto officia voluptatibus reprehenderit illo dicta, cum. Praesentium veritatis necessitatibus delectus sed suscipit eius aperiam tempore, et laborum accusamus neque nam mollitia beatae ad inventore molestias.</p>
         </BaseCard>
 		</div>
+    <TheFooter />
 	</div>
 </template>

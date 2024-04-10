@@ -1,8 +1,10 @@
 <script setup> 
   import BaseCard from '../components/ui/BaseCard.vue'
+  import TheFooter from '../layouts/TheFooter.vue'
 </script>
 
 <template>
+  <div>
   <div class="flex flex-col items-center">
     <h3 class="text-xl">#03. Dev. Skills</h3>
     <h4>Some of the technologies that I utilize</h4>
@@ -34,5 +36,7 @@
         </div>
       </ul>
     </base-card>
+  </div>
+  <TheFooter />
   </div>
 </template>

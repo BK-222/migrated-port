@@ -2,9 +2,7 @@
 import { reactive, computed } from 'vue'
   
 import useProjectsStore from '../stores/projectsStore.js'
-import ProjectItem from '../components/ProjectItem.vue'
-
-import ProjItem from '../ProjItem.vue'
+import ProjItem from '../components/ProjItem.vue'
 
 const projectsStore = useProjectsStore();
   

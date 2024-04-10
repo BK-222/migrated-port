@@ -2,8 +2,8 @@
 
 import { ref, computed, defineProps } from 'vue'
 
-import BaseCard from './components/ui/BaseCard.vue'
-import BaseLink from './components/ui/BaseLink.vue'
+import BaseCard from './ui/BaseCard.vue'
+import BaseLink from './ui/BaseLink.vue'
 
 
 const props = defineProps({

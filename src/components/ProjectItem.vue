@@ -1,7 +1,7 @@
 <script setup>
-import { ref, computed, defineProps } from 'vue'
+import { ref, computed } from 'vue'
 
-import BaseCard from '../components/ui/BaseCard.vue'
+import BaseCard from './components/ui/BaseCard.vue'
 
   
 const props = defineProps({
